@@ -17,11 +17,9 @@ Please perform this exercise on one of the following operating systems, CentOS, 
 
 Requirements:
 		Docker: https://docs.docker.com/installation/
-		
 		Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git 
 
 To run: 
-
 		git clone https://github.com/aaronjab/autonginx-docker
 		cd autonginx-docker 
 		./start.sh
