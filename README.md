@@ -19,20 +19,10 @@ Requirements:
 
 To run: 
 
-	git clone https://github.com/aaronjab/deploy_nginx 
-	cd deploy_nginx 
-	vagrant up
+	git clone https://github.com/aaronjab/autonginx-docker
+	cd autonginx-docker 
+	./run.sh
 
 Open browser, type:
 
-10.10.33.1:8000
-
-Questions
-
-Describe the most difficult/painful hurdle you had to overcome in implementing your solution.
-
-Describe which puppet related concept you think is the hardest for new users to grasp.
-
-Where did you go to find information to help you in the build process?
-
-In a couple paragraphs explain what automation means to you and why it is important to an organization's infrastructure design strategy.
+192.168.99.100:8000
