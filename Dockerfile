@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM nginx
+FROM nginx:latest
 
 # Copy index.html to content dir
 COPY index.html /usr/share/nginx/html/
