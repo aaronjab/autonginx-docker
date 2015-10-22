@@ -8,6 +8,7 @@ b) serve a page with the content of the following repository:
 c) Please explicitly state all assumptions (e.g. Only runs on RHEL6)
 
 Your solution should: 
+
 i) ensure that the required configuration is completed reliably when all the steps are completed 
 ii) ensure that subsequent applications of the solution do not cause failures or repeat redundant configuration tasks 
 iii)ensure that each execution of the solution results in nginx serving the latest available content from the repository linked above
@@ -22,8 +23,10 @@ To run:
 
 	git clone https://github.com/aaronjab/autonginx-docker
 	cd autonginx-docker 
-	./run.sh
+	./start.sh
 
-Open browser, type:
+ 	The script will output a URL to open with a browser.	
 
-192.168.99.100:8000
+To stop:
+
+	./stop.sh
