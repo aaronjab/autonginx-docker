@@ -10,7 +10,7 @@ case "`uname -s`" in
 	echo "Now open a browser to http://$IP:8000"
 	;;
 	Linux)
-	IP=`ip addr | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cut -f1  -d'/'`
+	IP=`ip route get 8.8.8.8 | head -1 | cut -d' ' -f8`
 	echo "Now open a browser to http://$IP:8000"
 	;;
 	*)
